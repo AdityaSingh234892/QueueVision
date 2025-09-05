@@ -1,0 +1,29 @@
+{
+  "report_type": "hourly",
+  "timestamp": "2025-07-12T22:48:45.805466",
+  "hour": 22,
+  "summary": {
+    "total_customers_served": 0,
+    "average_service_time": 0.0,
+    "average_wait_time": 0.0,
+    "peak_queue_length": 5,
+    "average_queue_length": 3.103448275862069,
+    "data_points": 29
+  },
+  "queue_performance": {
+    "1": {
+      "average_length": 3.103448275862069,
+      "average_wait_time": 293.49198519772494,
+      "average_service_time": 0.0,
+      "total_customers_served": 0,
+      "efficiency_score": 0
+    }
+  },
+  "cashier_performance": {
+    "message": "Cashier performance analysis"
+  },
+  "customer_flow": {
+    "message": "Customer flow analysis"
+  },
+  "recommendations": []
+}

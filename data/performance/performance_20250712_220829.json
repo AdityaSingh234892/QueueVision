@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-07-12T22:08:29.886972",
+  "system_metrics": {
+    "total_customers_processed": 0,
+    "total_service_time": 0,
+    "peak_queue_length": 5,
+    "system_uptime": 1752338055.8303442,
+    "fps": 0,
+    "detection_accuracy": 0,
+    "active_cashiers": 0,
+    "uptime_hours": 0.07042516344123416,
+    "current_detections": 4,
+    "average_cashier_performance": 0,
+    "total_cashiers": 0,
+    "customers_per_hour": 0.0,
+    "total_customers_served": 0,
+    "queue_efficiency": 0.0
+  },
+  "cashier_performance": {
+    "rankings": [],
+    "total_cashiers": 0,
+    "average_performance": 0
+  },
+  "trends": {
+    "hourly": {
+      "22": {
+        "average_customers_served": 0.0,
+        "average_service_time": 0.0,
+        "data_points": 254
+      }
+    }
+  },
+  "alerts": {
+    "recent_alerts": [],
+    "total_alerts": 0
+  },
+  "recommendations": [
+    {
+      "type": "training",
+      "message": "Consider additional training for cashiers to improve service speed",
+      "priority": "high"
+    },
+    {
+      "type": "staffing",
+      "message": "Low queue efficiency. Consider adjusting staffing levels",
+      "priority": "high"
+    }
+  ]
+}

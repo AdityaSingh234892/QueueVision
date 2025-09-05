@@ -1,0 +1,75 @@
+{
+    "detection": {
+        "model_type": "yolo",
+        "confidence_threshold": 0.5,
+        "nms_threshold": 0.4,
+        "person_class_id": 0
+    },
+    "queue": {
+        "max_customers_per_queue": 10,
+        "service_time_threshold": 300,
+        "queue_length_alert": 5,
+        "optimal_wait_time": 180
+    },
+    "visual": {
+        "line_thickness": 3,
+        "colors": {
+            "current_customer": [
+                0,
+                255,
+                0
+            ],
+            "waiting_line": [
+                255,
+                0,
+                0
+            ],
+            "queue_boundary": [
+                0,
+                0,
+                255
+            ],
+            "alert": [
+                0,
+                165,
+                255
+            ]
+        },
+        "font_scale": 0.7,
+        "font_thickness": 2
+    },
+    "counters": {
+        "total_counters": 1,
+        "express_lanes": [
+            1
+        ],
+        "regular_lanes": [],
+        "counter_positions": {
+            "1": {
+                "x": 204,
+                "y": 115,
+                "width": 1059,
+                "height": 547
+            }
+        }
+    },
+    "performance": {
+        "target_service_time": 120,
+        "performance_threshold": 0.8,
+        "alert_delay": 5,
+        "break_time_tracking": true,
+        "service_time_alert": {
+            "enabled": true,
+            "threshold_seconds": 5,
+            "message": "Please sit - Service taking too long!",
+            "sound_enabled": true,
+            "visual_flash": true,
+            "repeat_interval": 2
+        }
+    },
+    "analytics": {
+        "save_interval": 60,
+        "report_generation": true,
+        "data_retention_days": 30
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "report_type": "manual",
+  "timestamp": "2025-07-12T21:05:06.235190",
+  "data_period": "4 hours",
+  "current_status": {
+    "timestamp": "2025-07-12T21:05:06.235190",
+    "status": "operational",
+    "uptime": 1752334506.2351902,
+    "message": "System running normally"
+  },
+  "performance_snapshot": {
+    "message": "No recent data available"
+  },
+  "queue_analysis": {},
+  "immediate_recommendations": [
+    {
+      "type": "system",
+      "message": "No recent data available for analysis",
+      "priority": "low"
+    }
+  ]
+}

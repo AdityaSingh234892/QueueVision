@@ -1,0 +1,27 @@
+{
+  "timestamp": "20250712_224132",
+  "queues": {
+    "1": {
+      "queue_id": 1,
+      "queue_type": "express",
+      "customers": [],
+      "current_customer": null,
+      "total_customers_served": 0,
+      "average_service_time": 0,
+      "average_wait_time": 0,
+      "queue_length": 0,
+      "queue_status": "good",
+      "estimated_wait_time": 0,
+      "cashier_id": null,
+      "status": "active"
+    }
+  },
+  "performance_metrics": {
+    "total_customers_served": 0,
+    "average_service_time": 0,
+    "average_wait_time": 0,
+    "total_customers_waiting": 0,
+    "queue_efficiency": 0.0
+  },
+  "recommendations": []
+}

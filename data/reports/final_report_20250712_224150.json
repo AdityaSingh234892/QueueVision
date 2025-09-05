@@ -1,0 +1,17 @@
+{
+  "report_type": "final",
+  "timestamp": "2025-07-12T22:41:50.302294",
+  "session_summary": {
+    "message": "Session summary"
+  },
+  "total_metrics": {
+    "message": "Total metrics calculation"
+  },
+  "performance_analysis": {
+    "message": "Session performance analysis"
+  },
+  "efficiency_report": {
+    "message": "Efficiency report"
+  },
+  "recommendations": []
+}

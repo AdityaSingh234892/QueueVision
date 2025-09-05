@@ -1,0 +1,50 @@
+{
+  "report_type": "hourly",
+  "timestamp": "2025-07-12T21:59:09.494793",
+  "hour": 21,
+  "summary": {
+    "total_customers_served": 148,
+    "average_service_time": 0.8776433069472075,
+    "average_wait_time": 0.0,
+    "peak_queue_length": 2,
+    "average_queue_length": 0.65,
+    "data_points": 5
+  },
+  "queue_performance": {
+    "1": {
+      "average_length": 0.4,
+      "average_wait_time": 0.3074249578244759,
+      "average_service_time": 0.8776433069472075,
+      "total_customers_served": 148,
+      "efficiency_score": 0.8832384578902097
+    },
+    "2": {
+      "average_length": 1.0,
+      "average_wait_time": 35.50172395706177,
+      "average_service_time": 0.0,
+      "total_customers_served": 0,
+      "efficiency_score": 0
+    },
+    "3": {
+      "average_length": 1.2,
+      "average_wait_time": 59.50172395706177,
+      "average_service_time": 0.0,
+      "total_customers_served": 0,
+      "efficiency_score": 0
+    },
+    "4": {
+      "average_length": 0.0,
+      "average_wait_time": 0.0,
+      "average_service_time": 0.0,
+      "total_customers_served": 0,
+      "efficiency_score": 0
+    }
+  },
+  "cashier_performance": {
+    "message": "Cashier performance analysis"
+  },
+  "customer_flow": {
+    "message": "Customer flow analysis"
+  },
+  "recommendations": []
+}

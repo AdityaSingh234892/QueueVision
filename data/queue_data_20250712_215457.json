@@ -1,0 +1,85 @@
+{
+  "timestamp": "20250712_215457",
+  "queues": {
+    "1": {
+      "queue_id": 1,
+      "queue_type": "express",
+      "customers": [
+        {
+          "person_id": "customer_1_1232_621",
+          "queue_id": 1,
+          "entry_time": 1752337496.4511771,
+          "service_start_time": null,
+          "service_end_time": null,
+          "position": 1,
+          "status": "waiting",
+          "estimated_wait_time": 600,
+          "actual_wait_time": 0,
+          "service_time": 0,
+          "customer_type": "express"
+        },
+        {
+          "person_id": "customer_1_727_554",
+          "queue_id": 1,
+          "entry_time": 1752337496.8871841,
+          "service_start_time": null,
+          "service_end_time": null,
+          "position": 2,
+          "status": "waiting",
+          "estimated_wait_time": 360,
+          "actual_wait_time": 0,
+          "service_time": 0,
+          "customer_type": "express"
+        },
+        {
+          "person_id": "customer_1_453_566",
+          "queue_id": 1,
+          "entry_time": 1752337496.8871841,
+          "service_start_time": null,
+          "service_end_time": null,
+          "position": 3,
+          "status": "waiting",
+          "estimated_wait_time": 480,
+          "actual_wait_time": 0,
+          "service_time": 0,
+          "customer_type": "express"
+        }
+      ],
+      "current_customer": {
+        "person_id": "customer_1_733_555",
+        "queue_id": 1,
+        "entry_time": 1752336801.0500836,
+        "service_start_time": 1752336801.0500836,
+        "service_end_time": null,
+        "position": 0,
+        "status": "current",
+        "estimated_wait_time": 0,
+        "actual_wait_time": 0.0,
+        "service_time": 0,
+        "customer_type": "regular"
+      },
+      "total_customers_served": 0,
+      "average_service_time": 0,
+      "average_wait_time": 0,
+      "queue_length": 4,
+      "queue_status": "warning",
+      "estimated_wait_time": 360,
+      "cashier_id": null,
+      "status": "active"
+    }
+  },
+  "performance_metrics": {
+    "total_customers_served": 0,
+    "average_service_time": 0,
+    "average_wait_time": 0,
+    "total_customers_waiting": 3,
+    "queue_efficiency": 0.0
+  },
+  "recommendations": [
+    {
+      "type": "open_counter",
+      "message": "Consider opening additional checkout counters.",
+      "priority": "medium"
+    }
+  ]
+}

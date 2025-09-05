@@ -1,0 +1,113 @@
+{
+  "timestamp": "20250712_211600",
+  "queues": {
+    "1": {
+      "queue_id": 1,
+      "queue_type": "express",
+      "customers": [],
+      "current_customer": null,
+      "total_customers_served": 30,
+      "average_service_time": 1.119285281499227,
+      "average_wait_time": 0.0,
+      "queue_length": 0,
+      "queue_status": "good",
+      "estimated_wait_time": 0,
+      "cashier_id": null,
+      "status": "active"
+    },
+    "2": {
+      "queue_id": 2,
+      "queue_type": "express",
+      "customers": [],
+      "current_customer": {
+        "person_id": "customer_2_448_571",
+        "queue_id": 2,
+        "entry_time": 1752335037.4213276,
+        "service_start_time": 1752335037.4213276,
+        "service_end_time": null,
+        "position": 0,
+        "status": "current",
+        "estimated_wait_time": 0,
+        "actual_wait_time": 0.0,
+        "service_time": 0,
+        "customer_type": "regular"
+      },
+      "total_customers_served": 0,
+      "average_service_time": 0,
+      "average_wait_time": 0,
+      "queue_length": 1,
+      "queue_status": "good",
+      "estimated_wait_time": 0,
+      "cashier_id": null,
+      "status": "active"
+    },
+    "3": {
+      "queue_id": 3,
+      "queue_type": "regular",
+      "customers": [
+        {
+          "person_id": "customer_3_726_560",
+          "queue_id": 3,
+          "entry_time": 1752335159.9351318,
+          "service_start_time": null,
+          "service_end_time": null,
+          "position": 1,
+          "status": "waiting",
+          "estimated_wait_time": 0,
+          "actual_wait_time": 0,
+          "service_time": 0,
+          "customer_type": "regular"
+        }
+      ],
+      "current_customer": {
+        "person_id": "customer_3_733_555",
+        "queue_id": 3,
+        "entry_time": 1752335037.4213276,
+        "service_start_time": 1752335037.4213276,
+        "service_end_time": null,
+        "position": 0,
+        "status": "current",
+        "estimated_wait_time": 0,
+        "actual_wait_time": 0.0,
+        "service_time": 0,
+        "customer_type": "regular"
+      },
+      "total_customers_served": 0,
+      "average_service_time": 0,
+      "average_wait_time": 0,
+      "queue_length": 2,
+      "queue_status": "good",
+      "estimated_wait_time": 120,
+      "cashier_id": null,
+      "status": "active"
+    },
+    "4": {
+      "queue_id": 4,
+      "queue_type": "regular",
+      "customers": [],
+      "current_customer": null,
+      "total_customers_served": 0,
+      "average_service_time": 0,
+      "average_wait_time": 0,
+      "queue_length": 0,
+      "queue_status": "good",
+      "estimated_wait_time": 0,
+      "cashier_id": null,
+      "status": "active"
+    }
+  },
+  "performance_metrics": {
+    "total_customers_served": 30,
+    "average_service_time": 0.2798213203748067,
+    "average_wait_time": 0.0,
+    "total_customers_waiting": 1,
+    "queue_efficiency": 0.967741935483871
+  },
+  "recommendations": [
+    {
+      "type": "queue_redirect",
+      "message": "Queue 3 is overcrowded. Redirect customers to other counters.",
+      "priority": "high"
+    }
+  ]
+}
